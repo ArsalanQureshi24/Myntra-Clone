@@ -96,7 +96,7 @@ header{
     font-weight: 700;
     max-height: 5em;
 }
-.category_items{
+.category_items , .items-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -155,4 +155,101 @@ header{
     padding-bottom: 25px;
     text-transform: uppercase;
 
+}
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
+
+
+.items-container {
+    width: 80%;
+    margin: 40px 10%;
+}
+.item-container {
+    width: 200px;
+    margin-bottom: 13px;
+    margin-right: 5px;
+}
+.item-image {
+    width: 100%;
+}
+.rating {
+    font-size: 12px;
+    font-weight: 700;
+}
+.campany-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    text-overflow: ellipsis;
+}
+.item-name {
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.price {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #282c3f;
+    white-space: nowrap;
+}
+.current-price {
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.discount {
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.add-bag-btn {
+    border: none;
+    background-color: lightgreen;
+    padding: 5px 28px;
+    border-radius: 7px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.add-bag-count {
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.action_container {
+    text-decoration: none;
+}
+a.action_container:link {
+    color:black;
 }
